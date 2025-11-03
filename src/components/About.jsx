@@ -48,8 +48,15 @@ const About = () => {
   variants={fadeIn("", "", 0.1, 1)}
   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 >
-  I'm a computer science student from IET Lucknow. I'm a passionate Full Stack Web Developer and Competitive Programmer. Over 6-8 months of internship experience, I have dedicated myself to mastering key technologies required for Full Stack Web Development. My skills include React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, PostgreSQL, HTML, CSS, and JavaScript.
-</motion.p>
+I’m Manu Saini, a Computer Science and Engineering student at the Institute of Engineering and Technology (IET), Lucknow, with a strong passion for Full Stack Web Development and Competitive Programming.
+
+Currently working as a Software Development Engineer (SDE 1) at Tranzita Systems, I’ve designed and developed multiple enterprise-grade platforms—such as a Vehicle Management System (VMS) and a Change Management Process (CMP) platform for P&G—covering everything from client requirement analysis to backend architecture, database design, and frontend workflows.
+
+Over my professional journey, I’ve gained 8+ months of internship and development experience across startups like Bluestock Fintech and Hashedbit Innovations, where I built scalable applications, implemented CI/CD pipelines, optimized API performance, and improved system efficiency.
+
+My technical toolkit includes React.js, Next.js, Node.js, Express.js, TypeScript, MySQL, PostgreSQL, MongoDB, Docker, Firebase, and cloud platforms like AWS, Azure, and GCP. I follow Agile/DevOps methodologies to deliver secure, production-ready applications.
+
+As a competitive programmer, I’ve achieved a global rank of 682 on CodeChef Starters and 1983 on LeetCode Biweekly Contests, with a CUET-UG All India Rank of 57. I actively participate in college tech communities such as GDSC and Fractal Coding Club, continuously honing my technical and problem-solving skills.</motion.p>
 
 <motion.div
   variants={fadeIn("", "", 0.1, 1)}
@@ -74,3 +81,4 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+

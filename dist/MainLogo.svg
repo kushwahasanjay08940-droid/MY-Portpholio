@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black Background -->
+  <rect width="200" height="200" fill="black"/>
+
+  <!-- Bold White S -->
+  <text 
+    x="50%" 
+    y="50%" 
+    text-anchor="middle" 
+    dominant-baseline="central"
+    font-family="Poppins, Arial, sans-serif"
+    font-size="120"
+    font-weight="900"
+    fill="white"
+    letter-spacing="2">
+    S
+  </text>
+</svg>

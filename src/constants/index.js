@@ -157,7 +157,7 @@ points: [
 company_name: "Personal Project",
 icon: "cabby.webp",
 iconBg: "#fcfafa",
-date: "Jun 2024 - Aug 2024",
+date: "March - 2026",
 // link: "https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
 points: [
   "Designed and developed a Respido-inspired real-time video calling application with seamless peer-to-peer communication.",

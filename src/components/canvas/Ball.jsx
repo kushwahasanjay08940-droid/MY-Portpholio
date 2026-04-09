@@ -1,12 +1,14 @@
 import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber"; //animation
+// @react-three/drei → React Three Fiber ke helper components & hooks ka collection
+
 import {
-  Decal,
-  Float,
-  OrbitControls,
-  Preload,
-  useTexture,
-} from "@react-three/drei";
+  Decal,         // 3D object ke upar image/sticker lagane ke liye (jaise logo on model)
+  Float,         // object ko smooth floating animation dene ke liye (upar-neeche move + slight rotate)
+  OrbitControls, // camera ko mouse se control karne ke liye (rotate, zoom, pan)
+  Preload,       // saare 3D assets ko pehle se load karta hai (better performance)
+  useTexture,    // image file ko texture me convert karta hai (3D material me use hota hai)
+} from "@react-three/drei"; // ye library React Three Fiber ko easy banati hai
 
 import CanvasLoader from "../Loader";
 
@@ -33,7 +35,7 @@ const Ball = (props) => {
           flatShading
         />
       </mesh>
-    </Float>
+    </Float>//smooth floating motion deta hai , Ye 3D object (mesh) ka closing tag hai
   );
 };
 
@@ -41,8 +43,8 @@ const BallCanvas = ({ icon }) => {
   return (
     <Canvas
       frameloop='demand'
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
+      dpr={[1, 2]}  //DPR = Device Pixel Ratio
+      gl={{ preserveDrawingBuffer: true }} // canvas ka current frame save rakhna
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />

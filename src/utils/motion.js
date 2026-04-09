@@ -1,3 +1,5 @@
+//  some framer motion animation 
+
 export const textVariant = (delay) => {
   return {
     hidden: {
@@ -19,9 +21,11 @@ export const textVariant = (delay) => {
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
-      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
+      x: direction === "left" ? 100 : direction === "right" ? -100 : 0, 
+      // element right side se aayega    element left side se aayega
       y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
       opacity: 0,
+      //element neeche se upar aayega   element upar se neeche aayega
     },
     show: {
       x: 0,

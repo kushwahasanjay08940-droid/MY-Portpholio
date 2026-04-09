@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Typed from "typed.js";
+import Typed from "typed.js"; //typing animation library
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -8,8 +8,8 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   useEffect(() => {
     // Initialize Typed.js on component mount
-    const typed = new Typed(".typing", {
-      strings: ["Manu Saini", "Web Developer", "Web Designer", "CS Engineer"],
+    const typed = new Typed(".typing", { //Ye CSS selector hai
+      strings: ["Sanjay Kushwaha", "Web Developer",  "IT Engineer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
@@ -17,7 +17,7 @@ const Hero = () => {
 
     // Clean up the Typed.js instance on component unmount
     return () => {
-      typed.destroy();
+      typed.destroy(); //background me chal raha process band karta hai
     };
   }, []);
 

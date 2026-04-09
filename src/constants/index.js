@@ -1,3 +1,6 @@
+// Static Data / Constants File
+//Data Configuration File
+
 import {
   mobile,
   backend,
@@ -62,7 +65,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Competitive Programmer",
+    title: "Data Structures + Algorithms",
     icon: creator,
   },
 ];
@@ -100,10 +103,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+ 
   {
     name: "Three JS",
     icon: threejs,
@@ -116,59 +116,57 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
   {
-    title: "Software Development Internship",
-    company_name: "Bluestock Fintech",
-    icon: "bfelogo.jpeg",
-    iconBg: "#fcfafa",
-    date: "Jun 2024- Aug 2024",
-    link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
-    points: [
-      // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
-      // "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
-      // "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // // "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Designed and developed a stock market website using Python, Django, and Figma, etc.",
-      "Gained hands-on experience in stock market app development, contributing to real-world projects.",
-      "Tech used - Python, Django, Figma",
-    ],
+  title: "Memory-Based AI Chatbot",
+company_name: "Personal Project",
+icon: "bfelogo.webp",
+iconBg: "#fcfafa",
+date: "November - 2025",
+// link: "https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
+points: [
+  "Designed and developed a real-time AI chatbot with memory-based conversation capabilities.",
+  "Implemented context-aware responses to maintain chat history and improve user interaction experience.",
+  "Built a responsive and interactive UI for seamless chat experience using modern web technologies.",
+  "Integrated backend APIs to handle message processing and conversational flow efficiently.",
+  "Worked independently to design, develop, and deploy the full-stack AI chatbot system.",
+  "Tech Used - ReactJS, NodeJS, ExpressJS, MongoDB, APIs, Tailwind CSS",
+],
 },
   {
-    title: "Software Developer Intern",
-    company_name: "Hashedbit Innovation",
-    icon: "hilogo.jpeg",
-    iconBg: "#d4cfcf",
-    date: "Jan 2024- May 2024",
-    link:"https://drive.google.com/file/d/1_D66BYcIcNs8K6ecJy4ReC6aLk55vDfC/view",
-    points: [
-        "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
-      "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
-      "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
-      "Tech used - Reactjs, Nodejs, Expressjs, MySQL, CSS, Javascript."
-    ],
+   title: "Video Calling MERN Project",
+company_name: "Personal Project",
+icon: "video.webp",
+iconBg: "#fcfafa",  
+date: "December-2025",
+// link: "https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
+points: [
+  "Designed and developed a real-time AI-based video calling application with seamless peer-to-peer communication.",
+  "Implemented real-time video and audio streaming using WebRTC for low-latency communication.",
+  "Built a responsive and interactive UI for smooth video calling experience across devices.",
+  "Integrated backend services to manage user connections, signaling, and session handling efficiently.",
+  "Worked independently to design, develop, and deploy the full-stack video calling system.",
+  "Tech Used - ReactJS, NodeJS, ExpressJS, WebRTC, Socket.io, MongoDB, Tailwind CSS",
+],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Octanet Services Pvt Ltd",
-    icon: "oct.jpeg",
-    iconBg: "#fcfafa",
-    date: "October 2023 - December 2023", 
-    link:"https://drive.google.com/file/d/1PFSn4BcwO8sgodhpvPh1LZk9-p3_Yx5a/view",
-    points: [
-      "Collaborated with a team to create and maintain web applications, gaining hands-on experience in HTML5, CSS3, and JavaScript.",
-      "Assisted in designing and developing user interfaces with React.JS, creating interactive and responsive web experiences.",
-      "Contributed to web application development and maintenance, improving performance through active participation in codebase enhancements and troubleshooting.",
-      "Gained exposure to frameworks like Bootstrap by helping create visually appealing and user-friendly web interfaces.",
-    ],
+ title: "Repido Clone Project",
+company_name: "Personal Project",
+icon: "cabby.webp",
+iconBg: "#fcfafa",
+date: "Jun 2024 - Aug 2024",
+// link: "https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
+points: [
+  "Designed and developed a Respido-inspired real-time video calling application with seamless peer-to-peer communication.",
+  "Implemented WebRTC for real-time video and audio streaming with low-latency performance.",
+  "Integrated Socket.io for signaling and managing live user connections and call sessions.",
+  "Built a responsive and modern UI for smooth and interactive video calling experience across devices.",
+  "Handled backend services using Node.js and Express.js for authentication and connection management.",
+  "Tech Used - ReactJS, NodeJS, ExpressJS, WebRTC, Socket.io, MongoDB, Tailwind CSS",
+],
   },
   // {
   //   title: "Full stack Developer",
@@ -191,90 +189,58 @@ const testimonials = [
       "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Web Development Certificate",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Linkden",
     image: "SDE.png",
-    link:"https://www.hackerrank.com/certificates/afc7a78f4549",
+    link:"https://drive.google.com/file/d/18vlMfA5LPYbogNkFEabHzgAqTjEm8xkC/view",
   },
   {
     testimonial:
       "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Web Development Certificate",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Infosis",
     image: "React.png",
-    link:"https://www.hackerrank.com/certificates/e06e6db1c752",
+    link:"https://drive.google.com/file/d/18wun27XHZ5qehF4P6pqPdfuq1b7_Oz6i/view",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Jaser does.",
     name: "SDE Intern Certificate",
     designation: "COO",
-    company: "DEF Corp",
-    image: "SIH.jpg",
-    link:"https://drive.google.com/file/d/1v51Oe5MVg9uZ4pxgyubYlzgteeHabQIj/view",
+    company: "simplilearn",
+    image: "SIH.png",
+    link:"https://drive.google.com/file/d/192Xyhk8Gs5Noy_9wFul2iE4laQA9M0mR/view",
   },
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Jaser proved me wrong.",
-    name: "Smart India Hackathon",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "BI.jpg",
-    link:"https://drive.google.com/file/d/1-RDb_GBbw86BneAL1hntM36nPUx1owm-/view",
-  },
+  
+ 
   {
     testimonial:
       "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Web Development Certificate",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "Oct.jpg",
-    link:"https://drive.google.com/file/d/1PFSn4BcwO8sgodhpvPh1LZk9-p3_Yx5a/view",
-  },
-  {
-    testimonial:
-      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Web Development Certificate",
-    designation: "CTO",
-    company: "456 Enterprises",
+    company: "simplilearn",
     image: "Python.png",
-    link:"https://drive.google.com/file/d/1v722kvhrcnao2bMJ8xBaRfIMbSZ8kklB/view"
+    link:"https://drive.google.com/file/d/19-besvr0phRQVI4AC75QMILoHFgno9Ro/view"
   },
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Jaser proved me wrong.",
-    name: "Smart India Hackathon",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "GoldSach.jpg",
-    link:"https://drive.google.com/file/d/1vM9fG0nW5ihc8zJGaVPSGULxKVm9hnhE/view",
-  },
+ 
   {
     testimonial:
       "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Web Development Certificate",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Simplilearn",
     image: "Accenture.png",
-    link:"https://drive.google.com/file/d/1XB1ARjHSXhT_l6nlFZqs4cyDiMpAvGGc/view",
+    link:"https://drive.google.com/file/d/190HN7abZq88Z95ZXZmkd86gj--pweKVs/view",
   },
-  {
-    testimonial:
-      "After Jaser optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Web Development Certificate",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "CIT .jpg",
-    link:"https://drive.google.com/file/d/1X8maaMJ8H8Hpxo2PYAvRWW7-pq4RAgL7/view"
-  },
+ 
 ];
 
 const projects = [
   {
-    name: "Real Time Chat App",
+    name: "Resume Builder With Ai",
     description:
       // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      "I developed a chat application with real-time, two-way communication, allowing message editing, deletion, and online status display. It also includes a search functionality for efficiently managing and locating contacts Tech Used- ReactJS, NodeJS, MongoDB, ExpressJS, Redux, React-Hooks,Tailwind CSS, APIs",
+   " I developed a full-stack  Resume Builder web  application that enables users to create, edit, , download  and even share  with their friends with professional  resumes with dynamic  templates. It includes real-time preview, form-based input handling , Ai integration  and efficient  data management  for seamless user  experience  . Tech Used - ReactJs, NodeJS, Mongodb, Api",
     tags: [
       {
         name: "react",
@@ -293,17 +259,17 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "chatt.jpg",
-    link:"https://real-time-chat-frontend-1.vercel.app/",
-    source_code_link: "https://github.com/ManuSaini9084/Real-Time-Chat-Frontend",
+    image: "resume.jpg",
+    // link:"https://real-time-chat-frontend-1.vercel.app/",
+    // source_code_link: "https://github.com/ManuSaini9084/Real-Time-Chat-Frontend",
   },
   {
-    name: "Rail Ticket Karo",
+    name: "Employee Management",
     description:
-      "The online railway ticket reservation system is designed to efficiently manage train bookings and provide real-time information on availability, prices, and schedules. It has admin and user panels. It provides easy booking of train ticket. Schedules of train are handled properly. Tech Used- ReactJs, NodeJs, PostgreSQL, APIs",
+      "The Employee Management System is designed to efficiently manage employee records with their  roles, and activities. It has both admin and user panels. It allows easy management of employee data, including adding, updating, and deleting records. Employee tasks, attendance, and information are handled properly. Tech Used- ReactJs, NodeJS, Mongodb, Redux Toolkit ",
     tags: [
       {
-        name: "react",
+        name: "Redux Toolkit",
         color: "blue-text-gradient",
       },
       {
@@ -314,36 +280,37 @@ const projects = [
         name: "mongodb",
         color: "pink-text-gradient",
       },
-      {
-        name: "aws",
-        color: "green-text-gradient",
-      },
+    
     ],
-    image: "rail.jpg",
-    link:"https://github.com/ManuSaini9084/Railway-irctc",
-    source_code_link: "https://github.com/ManuSaini9084/Railway-irctc",
+    image: "employe.jpg",
+    // link:"https://github.com/ManuSaini9084/Railway-irctc",
+    // source_code_link: "https://github.com/ManuSaini9084/Railway-irctc",
   },
   {
-    name: "Empowering India",
+    name: "AI Interview Platform",
     description:
-      "An inclusive platform to provide information about government schemes, NGOs, and collaboration opportunities to support marginalized communities. It provides multilingual support, chatbots facilities, authentication as well. Tech Used- ReactJs, NodeJs,ExpressJs, APIs, MongoDB, Tailwind CSS",
+      "An AI-powered interview platform designed to help users practice and improve their interview skills through real-time interaction. It provides features like AI-based question and instant feedback to enhance performance. The platform includes interactive user interface for a seamless experience. Tech Used- ReactJS, NodeJS, ExpressJS, APIs, MongoDB, Tailwind CSS",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "bootsrap5",
+        name: "Vapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "API",
         color: "pink-text-gradient",
       },
+        {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
     ],
-    image: "incl.avif",
-    link:"https://inclusion-empowering-india-wfen.onrender.com/",
-    source_code_link: "https://github.com/yashpatel139/Inclusion",
+    image: "ai.webp",
+    // link:"https://inclusion-empowering-india-wfen.onrender.com/",
+    // source_code_link: "https://github.com/yashpatel139/Inclusion",
   },
 ];
 

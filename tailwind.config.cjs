@@ -2,10 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
-  theme: {
+  theme: {   //Ye ek design configuration system hai
     extend: {
       colors: {
-        primary: "#050816",
+        primary: "#050816",  // project ka custom theme 
         secondary: "#aaa6c3",
         tertiary: "#151030",
         "black-100": "#100d25",

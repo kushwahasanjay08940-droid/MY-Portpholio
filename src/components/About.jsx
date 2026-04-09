@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-tilt"; //for titl the card
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -45,28 +45,40 @@ const About = () => {
       </motion.div>
 
       <motion.p
-  variants={fadeIn("", "", 0.1, 1)}
+  variants={fadeIn("", "", 0.1, 1)} //(direction, type, delay, duration)
   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 >
-I’m Manu Saini, a Computer Science and Engineering student at the Institute of Engineering and Technology (IET), Lucknow, with a strong passion for Full Stack Web Development and Competitive Programming.
 
-Currently working as a Software Development Engineer (SDE 1) at Tranzita Systems, I’ve designed and developed multiple enterprise-grade platforms—such as a Vehicle Management System (VMS) and a Change Management Process (CMP) platform for P&G—covering everything from client requirement analysis to backend architecture, database design, and frontend workflows.
 
-Over my professional journey, I’ve gained 8+ months of internship and development experience across startups like Bluestock Fintech and Hashedbit Innovations, where I built scalable applications, implemented CI/CD pipelines, optimized API performance, and improved system efficiency.
+I’m a IT student with a strong interest in Full Stack Web Development and problem solving.
 
-My technical toolkit includes React.js, Next.js, Node.js, Express.js, TypeScript, MySQL, PostgreSQL, MongoDB, Docker, Firebase, and cloud platforms like AWS, Azure, and GCP. I follow Agile/DevOps methodologies to deliver secure, production-ready applications.
+ I enjoy turning ideas into real-world projects and continuously learning new technologies to
+ 
+  improve my development skills.
 
-As a competitive programmer, I’ve achieved a global rank of 682 on CodeChef Starters and 1983 on LeetCode Biweekly Contests, with a CUET-UG All India Rank of 57. I actively participate in college tech communities such as GDSC and Fractal Coding Club, continuously honing my technical and problem-solving skills.</motion.p>
+Currently focused on frontend and backend development, I am building projects,
+
+ exploring modern frameworks, and strengthening my understanding of scalable web applications. 
+
+ I believe in learning by doing, staying consistent, and growing step by step.
+
+My goal is to become a proficient Full Stack Developer and create meaningful, efficient, 
+
+and user-friendly applications.
+
+</motion.p>
+
+
 
 <motion.div
-  variants={fadeIn("", "", 0.1, 1)}
+  variants={fadeIn("", "", 0.1, 1)} // start empty duration 1 second
   className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 >
-  <p>
+  {/* <p>
     <span className="text-white">Degree:</span> B-Tech in Computer Science and Engineering (AI) &nbsp; <span className="text-white">CGPA:</span> 8.8
-  </p>
+  </p> */}
   <p className='mt-2'>
-    <span className="text-white">Email:</span> manusaini22092003@gmail.com
+    <span className="text-white">Email:</span> kushwahasanjay08940@gmail.com
   </p>
 </motion.div>
 

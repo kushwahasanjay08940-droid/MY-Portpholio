@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber"; // empty space whrere something place
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei"; //helper
 
 import CanvasLoader from "../Loader";
 
@@ -58,13 +58,14 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov: 25 }} //feild of view how wide
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense fallback={<CanvasLoader />}> 
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 2}  //90° (degree)  side view (90°) 0
+// bilkul top se dekhna
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />

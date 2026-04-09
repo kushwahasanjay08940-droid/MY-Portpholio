@@ -17,8 +17,8 @@ const EarthCanvas = () => {
     <Canvas
       shadows
       frameloop='demand'
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
+      dpr={[1, 2]} //Device Pixel Ratio
+      gl={{ preserveDrawingBuffer: true }} //WebGL configuration (3D rendering engine settings)
       camera={{
         fov: 45,
         near: 0.1,

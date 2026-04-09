@@ -87,26 +87,6 @@ EmailJS (for contact form)
 ⚙️ Build Tool
 
 
-Vite
-
-📂 Project Structure
-
-
-portfolio/
-│── public/
-│── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── constants/
-│   ├── utils/
-│   ├── hoc/
-│   ├── canvas/
-│   └── main.jsx
-│── index.html
-│── package.json
-│── tailwind.config.js
-
 
 ⚙️ Installation & Setup
 
@@ -124,6 +104,3 @@ npm install
 
 npm run dev
 
-
-4. Open in browser
-http://localhost:5173

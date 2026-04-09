@@ -89,40 +89,6 @@ EmailJS (for contact form)
 
 Vite
 
-📂 Project Structure
-portfolio/
-│
-├── public/                  # Static assets (images, icons, etc.)
-│
-├── src/                     # Main source code
-│   │
-│   ├── assets/              # Images, logos, fonts, 3D models
-│   │
-│   ├── components/          # Reusable UI components (Navbar, Footer, Cards)
-│   │
-│   ├── pages/               # Pages (Home, About, Projects, Contact)
-│   │
-│   ├── constants/           # Static data (projects list, skills, links)
-│   │
-│   ├── utils/               # Helper functions (formatters, API helpers)
-│   │
-│   ├── hoc/                 # Higher Order Components (wrappers, layouts)
-│   │
-│   ├── canvas/              # Three.js / 3D related components
-│   │
-│   ├── App.jsx              # Main App component
-│   │
-│   └── main.jsx             # Entry point (React DOM render)
-│
-├── index.html               # Root HTML file
-│
-├── package.json             # Project dependencies & scripts
-│
-├── tailwind.config.js       # Tailwind CSS configuration
-│
-└── vite.config.js           # Vite configuration (if using Vite)
-⚙️ Installation & Setup
-
 
 
 
@@ -138,5 +104,3 @@ npm install
 npm run dev
 
 
-4. Open in browser
-http://localhost:5173

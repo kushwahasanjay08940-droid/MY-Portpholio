@@ -87,7 +87,12 @@ EmailJS (for contact form)
 ⚙️ Build Tool
 
 
+<<<<<<< HEAD
 Vite
+=======
+
+⚙️ Installation & Setup
+>>>>>>> 87b245d69ce68a9b73db871f84edea2a635e7c27
 
 
 
@@ -103,4 +108,7 @@ npm install
 
 npm run dev
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87b245d69ce68a9b73db871f84edea2a635e7c27
